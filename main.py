@@ -3,13 +3,8 @@
 from shuoshuo import deal_one
 from db_conf.redis_conf.db_conf import *
 import threading
-from login import write_into
+from login import write_into,start_setting
 
-
-start_setting={
-    'qq_number':'xxxxxxxxx',
-    'password':'xxxxxxxxx'
-}
 
 
 def mian():
